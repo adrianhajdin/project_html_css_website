@@ -28,7 +28,7 @@
   overflow-x: auto;
 
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 24px;
 }
 
