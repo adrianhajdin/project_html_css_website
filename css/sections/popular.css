@@ -154,14 +154,14 @@
 }
 
 .popular-foods__card-rating p {
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: 300;
   font-family: var(--plus-jakarta-sans);
   color: #fff;
 }
 
 .popular-foods__card-price {
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
   color: #fff;
@@ -196,3 +196,15 @@
   font-size: 24px;
   color: var(--secondary-color)
 }
+
+/* ---------- transition and transform ----------- */
+.st {
+  transition: transform 0.2s ease-in;
+}
+
+.st:hover {
+  cursor: pointer;
+  transform: translateY(-15px);
+}
+
+/* --------------------- */
